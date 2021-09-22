@@ -26,7 +26,7 @@ export default class Jisoo extends Component {
     render() {
         return (
             <div>
-                <h4>jisoo Kim 김제니 </h4>
+                <h4>Jisoo Kim 김지수 </h4>
                 <Grid centered stackable>
                     <Grid.Row columns={5}>
                         <Grid.Column>
