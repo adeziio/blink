@@ -8,6 +8,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import Jennie from './components/jennie/Jennie';
+import Jisoo from './components/jisoo/Jisoo';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Jennie />
           </Route>
           <Route path="/jisoo">
-
+            <Jisoo />
           </Route>
           <Route path="/rose">
 
