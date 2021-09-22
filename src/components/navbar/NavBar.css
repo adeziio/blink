@@ -1,9 +1,15 @@
 .menu.navbar-container {
     padding-left: 5%;
     padding-right: 5%;
+    background-color: hotpink !important;
+}
+
+.navbar-item {
+    display: inline-block !important;
 }
 
 .disclaimer {
-    background-color: #e03997 !important;
+    background-color: hotpink !important;
     color: white !important;
 }
+

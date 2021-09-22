@@ -25,8 +25,8 @@ export default class Jennie extends Component {
 
     render() {
         return (
-            <div>
-                <h4>Jennie Kim 김제니 </h4>
+            <div className="container">
+                <h4 className="title">Jennie Kim 김제니 </h4>
                 <Grid centered stackable>
                     <Grid.Row columns={5}>
                         <Grid.Column>

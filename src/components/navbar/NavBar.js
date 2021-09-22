@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Header, Icon, Popup, Button } from 'semantic-ui-react';
+import { Menu, Header, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
@@ -25,11 +25,9 @@ export default class NavBar extends Component {
 
         return (
             <Menu
-                size="large"
+                size="massive"
                 secondary
                 inverted
-                color="pink"
-                // widths={3} 
                 className="navbar-container"
                 stackable
             >
@@ -48,6 +46,7 @@ export default class NavBar extends Component {
                     name='/jennie'
                     active={activeItem === '/jennie'}
                     onClick={this.handleItemClick}
+                    className="navbar-item"
                 >
                     Jennie
                 </Menu.Item>
@@ -57,6 +56,7 @@ export default class NavBar extends Component {
                     name='/jisoo'
                     active={activeItem === '/jisoo'}
                     onClick={this.handleItemClick}
+                    className="navbar-item"
                 >
                     Jisoo
                 </Menu.Item>
@@ -66,6 +66,7 @@ export default class NavBar extends Component {
                     name='/rose'
                     active={activeItem === '/rose'}
                     onClick={this.handleItemClick}
+                    className="navbar-item"
                 >
                     Rosé
                 </Menu.Item>
@@ -75,17 +76,10 @@ export default class NavBar extends Component {
                     name='/lisa'
                     active={activeItem === '/lisa'}
                     onClick={this.handleItemClick}
+                    className="navbar-item"
                 >
                     Lisa
                 </Menu.Item>
-                <Menu.Menu position='right'>
-                    <Menu.Item>
-                        <Popup
-                            content='This is a personal fan page for BLACKPINK (girl group by YG Entertainment). No copyright infringement is ever intended. Any articles, photos, videos, or audio clips used on the site are copyrighted to their respective owners. Copyright to photographs are owned by the respective photographers. If they want to see any photographs on this website removed, please contact adeziio@yahoo.com, specify which ones and give me time to remove them before taking any further action. I do not claim ownership of any materials displayed on this website.'
-                            trigger={<Button className="disclaimer" icon='exclamation triangle' />}
-                        />
-                    </Menu.Item>
-                </Menu.Menu>
             </Menu>
         )
     }
