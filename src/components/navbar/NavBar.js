@@ -38,10 +38,18 @@ export default class NavBar extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="navbar-item">
-                            <Nav.Link href="/jennie" className="navbar-item">Jennie</Nav.Link>
-                            <Nav.Link href="/jisoo" className="navbar-item">Jisoo</Nav.Link>
-                            <Nav.Link href="/rose" className="navbar-item">Rosé</Nav.Link>
-                            <Nav.Link href="/lisa" className="navbar-item">Lisa</Nav.Link>
+                            <Nav.Link href="/jennie" className={`navbar-item ${activeItem === "/jennie" ? "active" : ""}`}>
+                                Jennie
+                            </Nav.Link>
+                            <Nav.Link href="/jisoo" className={`navbar-item ${activeItem === "/jisoo" ? "active" : ""}`}>
+                                Jisoo
+                            </Nav.Link>
+                            <Nav.Link href="/rose" className={`navbar-item ${activeItem === "/rose" ? "active" : ""}`}>
+                                Rosé
+                            </Nav.Link>
+                            <Nav.Link href="/lisa" className={`navbar-item ${activeItem === "/lisa" ? "active" : ""}`}>
+                                Lisa
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 

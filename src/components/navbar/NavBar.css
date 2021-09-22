@@ -6,7 +6,12 @@
 
 .navbar-item {
     color: white !important;
-    font-size: 2rem;
+    font-size: 25px;
+}
+
+.navbar-item.active {
+    font-size: 125%;
+    border-radius: 25px;
 }
 
 #basic-navbar-nav {
@@ -14,7 +19,7 @@
     color: white !important;
 }
 
-.navbar-toggler-icon {
-    border: 1px solid black;
-    background-color: white;
+.navbar-toggler {
+    background-color: white !important;
+    border: 1px solid black !important;
 }
