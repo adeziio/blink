@@ -1,5 +1,7 @@
 .navbar-container {
     padding: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5%;
     background-color: hotpink !important;
     color: hotpink !important;
 }
@@ -11,7 +13,8 @@
 
 .navbar-item.active {
     font-size: 125%;
-    border-radius: 25px;
+    border-radius: 12px;
+    border-bottom: 1px solid white;
 }
 
 #basic-navbar-nav {

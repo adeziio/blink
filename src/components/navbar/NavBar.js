@@ -32,6 +32,7 @@ export default class NavBar extends Component {
                             <Header.Content>
                                 BLIИK 블링크
                                 <Header.Subheader>BLΛƆKPIИK 블랙핑크</Header.Subheader>
+                                <Header.Subheader>In Your Area</Header.Subheader>
                             </Header.Content>
                         </Header>
                     </Navbar.Brand>

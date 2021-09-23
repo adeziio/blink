@@ -15,8 +15,7 @@
 }
 
 .container {
-  min-width: 100% !important;
-  max-width: 100% !important;
+  min-width: 98% !important;
 }
 
 .App-header {
