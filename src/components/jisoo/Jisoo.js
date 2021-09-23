@@ -26,7 +26,7 @@ export default class Jisoo extends Component {
     render() {
         return (
             <div className="container">
-                <h4 className="title">Jisoo Kim 김지수 </h4>
+                <h4 className="title">Jisoo Kim 김지수 / Jichuu / Jisoo Turtle Rabbit Kim</h4>
                 <Grid centered stackable>
                     <Grid.Row columns={5}>
                         <Grid.Column>

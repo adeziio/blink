@@ -10,6 +10,8 @@ import {
 } from 'react-router-dom';
 import Jennie from './components/jennie/Jennie';
 import Jisoo from './components/jisoo/Jisoo';
+import Rose from './components/rose/Rose';
+import Lisa from './components/lisa/Lisa';
 
 function App() {
   return (
@@ -24,10 +26,10 @@ function App() {
             <Jisoo />
           </Route>
           <Route path="/rose">
-
+            <Rose />
           </Route>
           <Route path="/lisa">
-
+            <Lisa />
           </Route>
           <Route exact path="/" render={() => (<Redirect to="/jennie" />)} />
           <Route exact path="/*" render={() => (<Redirect to="/jennie" />)} />
